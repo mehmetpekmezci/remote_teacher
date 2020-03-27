@@ -1,0 +1,11 @@
+14. howto/arıza durumları web sayfasında sayfa
+        0. An example session scenario . (Maganer schedules, teacher joins the session, javaws, jnlp ve security ayarları, student joins the session)
+          How the buttons are used , how thw strings are located ....  
+        1. uyarılar : use headset ! don't use laptop's/computer's   speakers
+        2. jnlp security ayarları nasıl yapılır.
+        3. nasıl kullanılır :
+        		-- web cameresında kendini göremek ve düzeltme yapmak.
+        		-- kopup bağlanmada sorun yok
+
+10. android shot uygulaması
+11. sessionValidatorForTCPServer.php sadece tcp server dan connection kabul etmeli.

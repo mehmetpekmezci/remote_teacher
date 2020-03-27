@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="6.0+" codebase="http://www.rteacher.com/rteacher/jnlp" href="rteacher.jnlp">
+
+<information>
+<title>Remote Teacher</title>
+<vendor>Remote Teacher</vendor>
+<description kind="short">Remote Reacher</description>
+<icon href="sqlrunner.gif"/>
+<offline-allowed/>
+<association mime-type="application/x-jpg" extensions="jpg" />
+<shortcut online="true">
+<desktop/>
+<menu/>
+</shortcut>
+</information>
+
+<update check="timeout" policy="always" />
+
+<security>
+<all-permissions/>
+</security>
+
+<resources>
+<j2se version="1.7+" max-heap-size="1024m"/>
+<jar href="RemoteTeacherApp.jar" />
+</resources>
+
+<application-desc main-class="userInterface.MainApplication">
+</application-desc>
+
+</jnlp>

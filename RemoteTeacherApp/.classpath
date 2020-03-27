@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/java-1.7.0-openjdk-amd64"/>
+	<classpathentry kind="lib" path="lib/httpcomponents/commons-codec-1.9.jar"/>
+	<classpathentry kind="lib" path="lib/httpcomponents/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="lib/httpcomponents/fluent-hc-4.4.jar"/>
+	<classpathentry kind="lib" path="lib/httpcomponents/httpclient-4.4.jar"/>
+	<classpathentry kind="lib" path="lib/httpcomponents/httpclient-cache-4.4.jar"/>
+	<classpathentry kind="lib" path="lib/httpcomponents/httpclient-win-4.4.jar"/>
+	<classpathentry kind="lib" path="lib/httpcomponents/httpcore-4.4.jar"/>
+	<classpathentry kind="lib" path="lib/httpcomponents/httpmime-4.4.jar"/>
+	<classpathentry kind="lib" path="lib/httpcomponents/jna-4.1.0.jar"/>
+	<classpathentry kind="lib" path="lib/httpcomponents/jna-platform-4.1.0.jar"/>
+	<classpathentry kind="lib" path="lib/webcam/bridj-0.6.2.jar"/>
+	<classpathentry kind="lib" path="lib/webcam/slf4j-api-1.7.2.jar"/>
+	<classpathentry kind="lib" path="lib/webcam/webcam-capture-0.3.10.jar"/>
+	<classpathentry kind="lib" path="lib/sound/jspeex.jar"/>
+	<classpathentry kind="lib" path="lib/jnlp/jugbbant-1.7.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

@@ -1,0 +1,14 @@
+cd /opt/rteacher/
+
+for i in libs/*.jar
+do
+ CLASSPATH=$CLASSPATH:$i
+done
+
+PID=""
+
+while [ $PID
+
+java -jar RemoteTeacherTCPServer.jar
+
+

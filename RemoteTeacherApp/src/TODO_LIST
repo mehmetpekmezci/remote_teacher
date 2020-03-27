@@ -1,0 +1,18 @@
+test senaryo :
+1. hoca önceden girer ve çizmeye başlar, 5 dk. sonra öğrenci girer ve bütün çizimler ona gönderilir.
+2. hoca 10 dk. calisir onceden, sonra baglanti kopar , hoca ve ogrenci yeniden baglanir.
+3. hoca ile ogrenci calisirken koptu , tekrar baglandiklarinda geri gelmeli.
+4. aynı anda aynı sunucuda 2 session denemesi.
+
+
+
+ TODO:
+ 
+1. Audio Echo  Canceling
+2. Son eklenen string i kayit sirasinda almiyor.
+
+
+8. create/remove shape'te concurrency pb. olabilir ?
+5.SYNCH button -->sends teacher's all page's image to student and removes the elements of the draw queue. 
+11. image upload progress bar
+14. undo image'lar icin null'luyoruz. simdilik idare ediyoruz.

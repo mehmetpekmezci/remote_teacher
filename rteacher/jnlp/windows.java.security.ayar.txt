@@ -1,0 +1,25 @@
+
+Java Güncellemesi sebebiyle "Your security settings have blocked a self-signed application from running" hatası alan kurumlar aşağıda belirtilen yöntemlerden birini uyguladıkları takdirde Kesenek uygulamalarına sorunsuz şekilde girebilirler.
+
+Yöntem 2)
+Denetim masasında bulunan JAVA alanında Security(Güvenlik) alanında girin
+Edit Site List(Site Listesini Düzenle) düğmesine tıklayın.
+İstisna Site Listesi penceresinde Add(Ekle) öğesine tıklayın.
+URL girmek için Location(Konum) alanının altındaki boş alana tıklayın.
+Bu alana Kesenek Bilgi Sistemi adresini girin
+Girdiğiniz URL'yi kaydetmek için OK(Tamam) öğesine tıklayın.
+Güvenlik Uyarısı iletişim kutusundan Continue(Devam) öğesine tıklayın.
+(Konu ile ilgili link: İstisna Site Listesini nasıl konfigüre edebilirim?)
+
+
+
+vey a
+
+Java Güncellemesi sebebiyle "Your security settings have blocked a self-signed application from running" hatası alan kurumlar aşağıda belirtilen yöntemlerden birini uyguladıkları takdirde Kesenek uygulamalarına sorunsuz şekilde girebilirler.
+
+Yöntem 1)
+Denetim masasında bulunan JAVA alanında Security(Güvenlik) alanında girin
+Security Level(Güvenlik Düzeyi) alanında Medium(Orta) seçeneğini şeçin
+Apply(Uygula)'ya tıklayın.
+Java Denetim Masası'nda yapılan değişiklikleri kaydetmek için Ok(Tamam)'a tıklayın.
+(Konu ile ilgili link: Java Denetim Masası'ndaki güvenlik düzeyi ayarları) 

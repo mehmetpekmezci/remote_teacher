@@ -1,0 +1,200 @@
+body {
+    background-color: #FEFEFE;
+    background-position: right top;
+    background-repeat: no-repeat;
+    margin: 0;
+}
+#usttd {
+    height: 20px;
+    padding: 0;
+    background-color: #FEFEFE;
+    border-bottom: 1px solid #555555;
+}
+td.usttd{
+	    height: 20px;
+    padding: 0;
+    background-color: #FEFEFE;
+    border-bottom: 1px solid #555555;
+}
+td.commands {
+    background-color: #FEFEFE;
+    border-bottom: 4px solid #555555;
+    border-top: 1px solid #999999;
+    border-left: 4px solid #555555;
+    border-right: 4px solid #555555;
+    text-align: left;
+    vertical-align: top;
+    color : #555555;
+}
+td.index {
+    background-color: #FEFEFE;
+    border-bottom: 0px;
+    border-left: 0px ;
+    border-right: 1px solid #555555;
+    text-align: left;
+    vertical-align: top;
+    color : #555555;
+    height: 600px;
+}
+td.contentbody {
+    background-color: #FEFEFE;
+    border-bottom: 0px ;
+    border-right: 0px;
+    text-align: left;
+    vertical-align: top;
+    color : #555555;
+    height: 600px;
+}
+
+button.nowrap{
+    white-space: nowrap !important;
+}
+
+
+
+div.mainindex {
+    background-color: #FEFEFE;
+    overflow: auto;
+}
+div.index {
+    padding: 3px;
+    vertical-align: text-bottom;
+}
+div.indexitem {
+    display: none;
+    padding: 1px 3px 3px 10px;
+    white-space: nowrap;
+}
+div.openindexitem {
+    display: block;
+    padding: 10px 10px 10px 10px;
+    white-space: nowrap;
+    text-align: right;
+}
+
+
+a {
+    color: #394075;
+    font-family: Verdana;
+    font-size: 13px;
+    text-decoration: none;
+}
+a:visited {
+    color: #495088;
+}
+a:hover {
+    color: #8C70AD;
+}
+a:active {
+    color: #495088;
+}
+
+
+table.commandTable {
+	border-width: 3px 3px 3px 3px !important;
+	padding: 0px !important;
+	border-style: solid !important;
+	border-color: #555555 !important;
+        height:9px !important;
+        font-size:12px !important;
+}
+
+table.commandTableCentered {
+	border-width: 3px 3px 3px 3px !important;
+	padding: 0px !important;
+	border-style: solid !important;
+	border-color: #555555 !important;
+        height:9px !important;
+        font-size:12px !important;	
+	border-collapse: collapse;
+        width:500px !important;
+}
+
+table.commandTableCentered td {
+	border-width: 1px 0px 1px 0px !important;
+	padding: 0px !important;
+	border-style: solid !important;
+	border-color: #999999 !important;
+        height:9px !important;
+        font-size:12px !important;
+	border-collapse: collapse;
+        text-align:center;
+}
+
+table.attributevalues {
+	border-width: 1px 1px 1px 1px !important;
+	padding: 0px !important;
+	border-style: solid !important;
+	border-color: #a9c6c9 !important;
+        height:9px !important;
+        font-size:8px !important;
+}
+
+table.attributevalues th{
+	border-width: 0px 0px 0px 0px !important;
+	padding: 0px !important;
+	border-style: solid !important;
+	border-color: #a9c6c9 !important;
+}
+table.attributevalues td{
+	border-width: 0px 0px 0px 0px !important;
+	padding: 0px !important;
+	border-style: solid !important;
+	border-color: #a9c6c9 !important;
+}
+
+
+table.entrytable {
+	font-size:10px;
+	color:#333333;
+	border-width: 0px ;
+	border-color: #999999;
+	border-collapse: collapse;
+	text-align: center;
+       vertical-align: top;
+      padding: 0px;
+	
+}
+
+table.entrytable th {
+	border-width: 0px 0px 1px 0px;
+	padding: 0px;
+	border-style: solid;
+	border-color: #a9c6c9;
+}
+
+table.entrytable td {
+	border-width: 0px 0px 1px 0px;
+	padding: 0px;
+	border-style: solid;
+	border-color: #a9c6c9;
+}
+
+table.hovertable {
+	font-size:11px;
+	color:#333333;
+	border-width: 1px 0px 1px 0px;
+	border-color: #999999;
+	border-collapse: collapse;
+	text-align: center;
+       vertical-align: top;
+	
+}
+table.hovertable th {
+	border-width: 1px 0px 1px 0px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #a9c6c9;
+	height:20px;
+}
+
+table.hovertable td {
+	border-width: 1px 0px 1px 0px;
+	padding: 2px;
+	border-style: solid;
+	border-color: #a9c6c9;
+	height:10px;
+}
+
+
+

@@ -1,0 +1,9 @@
+firefox da open with another application deyip /opt/jdk1.8.0_20/bin/javaws  dosyası seçilir.
+
+daha sonra 
+
+root olarak degil , mpekmezci kullanicisi olarak,
+
+/opt/jdk1.8.0_25/bin/ControlPanel'in security sekmesinden "http://www.rteacher.com" ve "https://www.rteacher.com" adresileri eklenir.
+
+

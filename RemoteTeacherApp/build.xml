@@ -1,0 +1,125 @@
+<project default="jar" xmlns:jw="org.unintelligible.antjnlpwar">
+	<taskdef name="jnlp" classname="org.jugbb.ant.jws.JNLPTask" classpath="lib/jnlp/jugbbant-1.7.jar"/>
+	<taskdef name="one-jar" classname="com.simontuffs.onejar.ant.OneJarTask" classpath="lib/onejar/one-jar-ant-task-0.97.jar" onerror="report"/>
+	
+    <target name="clean">
+        <delete dir="bin"/>
+        <delete dir="dist"/>
+    </target>
+
+    <path id="classpath">
+        <fileset dir="lib" includes="**/*.jar"/>
+    </path>
+	
+    <target name="compile" depends="clean">
+        <mkdir dir="bin"/>
+        <javac srcdir="src" destdir="bin"   classpathref="classpath"/>
+    </target>
+
+    <target name="jar" depends="compile">
+        <mkdir dir="dist"/>
+        <!-- one-jar destfile="dist/RemoteTeacherApp.jar">
+            <main>
+                <fileset dir="bin"/>
+            </main>
+            <lib>
+                <fileset file="lib/httpcomponents/*.jar" />
+                <fileset file="lib/webcam/*.jar" />
+            </lib>
+            <manifest>
+                <attribute name="Main-Class" value="userInterface.MainApplication"/>
+            </manifest>
+        </one-jar -->
+        <jar destfile="dist/RemoteTeacherApp.jar" basedir="bin">
+            <manifest>
+                <attribute name="Main-Class" value="userInterface.MainApplication"/>
+            </manifest>
+        </jar>
+    	<jnlp 
+    	    title="Remote Teacher" 
+    	    vendor="Remote Teacher"
+    	    description="Remote Reacher"
+    	    folderwithsignedjars="dist"
+    	    iconhref="sqlrunner.gif"
+    	    codebase="http://www.rteacher.com/rteacher/jnlp"
+    	    createdesktopshortcut="true"
+    	    createmenuentry="true"
+    	    javaversion="1.7+"
+    	    javamaxheapsize="1024m"
+    	    associatewithfileextensions="jpg"
+    	    associatewithmimetype="application/x-jpg"
+    	    jnlpfilename="rteacher.jnlp"
+    	    mainclass="userInterface.MainApplication"
+    	    offlineallowed="true"
+    	    jnlpversion="6.0+"/>
+
+    </target>
+
+ 
+
+ 
+	<!--
+    <target name="hello" depends="init">
+        <!- - Build lib.jar - ->   
+        <javac destdir="${classes.dir}/lib">
+            <src path="${lib.dir}" />
+        </javac>
+        <jar destfile="${build.dir}/lib.jar" >
+            <fileset dir="${classes.dir}/lib"/>
+        </jar>   
+        <!- - Build classes for main.jar - ->   
+        <javac destdir="${classes.dir}/src">
+            <src path="${src.dir}" />
+            <classpath path="${build.dir}/lib.jar"/>   
+        </javac>
+        <!- - Construct the One-JAR file  - ->   
+        <one-jar destfile="hello.jar" manifest="hello.mf">
+            <main>
+                <!- - Construct main.jar from classes and source code - ->
+                <fileset dir="${classes.dir}/src"/>
+            </main>
+            <lib>
+                <fileset file="${build.dir}/lib.jar" />
+            </lib>
+        </one-jar>
+        <echo>
+          Now you can run the Hello One-JAR example using 
+          $ java -jar hello.jar
+        </echo>   
+           
+    </target>
+	-->
+	<!--
+	
+	
+	
+	1 	<?xml version="1.0"?>
+2 	<project>
+3 	    <!- - The following property is expected to be overridden by caller - ->   
+4 	    <property name="one-jar.dist.dir" value="./dist"/>   
+5 	    <property name="one-jar.version" value="0.98"/>
+6 	    <property name="one-jar.ant.jar" value="${one-jar.dist.dir}/one-jar-ant-task-${one-jar.version}.jar"/>
+7 	    <taskdef name="one-jar" classname="com.simontuffs.onejar.ant.OneJarTask" 
+8 	        classpath="${one-jar.ant.jar}" onerror="report"/>
+9 	
+10   	</project>
+	
+	
+	
+	
+    Download one-jar-ant-task-0.97.jar
+    Unpack into a working directory (e.g. c:/one-jar-ant):
+
+    $ mkdir c:/one-jar-ant
+    $ cd c:/one-jar-ant
+    $ jar -xvf .../one-jar-ant-task-0.97.jar
+    Add the following to your build.xml script:
+
+    <property name="one-jar.dist.dir" value="c:/one-jar-ant"/>
+    <import file="${one-jar.dist.dir}/one-jar-ant-task.xml" optional="true" />
+    <one-jar destfile="your.one.jar"
+    ...etc.
+	-->
+	
+
+</project> 

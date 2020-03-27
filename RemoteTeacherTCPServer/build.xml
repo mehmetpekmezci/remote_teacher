@@ -1,0 +1,26 @@
+<project default="jar" xmlns:jw="org.unintelligible.antjnlpwar">
+
+    <target name="clean">
+        <delete dir="bin"/>
+        <delete dir="dist"/>
+    </target>
+
+    <path id="classpath">
+        <fileset dir="lib" includes="**/*.jar"/>
+    </path>
+	
+    <target name="compile" depends="clean">
+        <mkdir dir="bin"/>
+        <javac srcdir="src" destdir="bin"   classpathref="classpath"/>
+    </target>
+
+    <target name="jar" depends="compile">
+        <mkdir dir="dist"/>
+        <jar destfile="dist/RemoteTeacherTCPServer.jar" basedir="bin">
+            <manifest>
+                <attribute name="Main-Class" value="server.Server"/>
+            </manifest>
+        </jar>
+    </target>
+
+</project> 

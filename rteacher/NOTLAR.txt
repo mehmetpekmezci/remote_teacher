@@ -1,0 +1,41 @@
+-- web sunucu hizmetini istanbul dan almak gerekiyor, sunucudaki zamani web'de gosterecegimiz icin.
+
+
+
+GENEL OLARAK YAPILACAKLAR :
+
+1) Alınan web adresine göre RemoteTeacherApp 'deki build.xml'in jnlp için olan taskin içindeki adres güncellenecek.
+2) build.xml ile tek jar oluşturulacak ve rteacher/jnlp dizinine kopyalanacak
+3) sign.sh çalıştırılacak.
+4) alınan web sitesi adresine göre rteacher linkleri kontrol edilip düzeltilecek.
+5) alinan web adresine gore Android uygulamanin icindeki URL'ler guncellenecek.
+
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Halil Yuva problemler :
+-------------------------------------
+
+1. Word-PDF gösterme
+
+2.  Üçgen ve 3 boyutlu şekiller.
+
+3. Kullanıcılar birbirlerinin şekillerini silemesin (undo)
+
+.4 Sağ alttaki sayfaların üzerine çift tıklayınca (teacher only) isim verevilecek (yine tarig başında kalacak)
+
+5. 50-60 sayfa ve her sayfada 50-60 şekil varken kopup tekrar bağlanınca sonsuz döngüye giriyor.
+
+6. teacher session kapatınca , web 'den join'i kaldır ,  server da da session dan at.
+
+7.  web sitesi türkçe olabilir.
+
+
+
+1. 
+
+
+
+
+
